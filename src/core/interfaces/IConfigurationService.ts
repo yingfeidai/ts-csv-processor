@@ -1,6 +1,6 @@
-import { ICsvProcessorConfigService } from '../../domain/entities/ICsvProcessorConfigService'
+import { CsvProcessorConfig } from '../config/CsvProcessorConfig'
 
 export interface IConfigurationService {
-  getConfig(): ICsvProcessorConfigService
-  setConfig(config: ICsvProcessorConfigService): void
+  getConfig(): CsvProcessorConfig
+  setConfig(config: CsvProcessorConfig): void
 }
