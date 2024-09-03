@@ -1,7 +1,7 @@
-import { ErrorType } from '../../domain/enums/ErrorType'
+import { ErrorTypeEnum } from '../../domain/enums/ErrorTypeEnum'
 
 export interface ICsvErrorService<T = any> {
-  type: ErrorType
+  type: ErrorTypeEnum
   message: string
   row?: {
     index: number
